@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Adding title in the web application-->
         <title>My first web app</title>
+        <!--Adding logo-->
         <link rel="icon" href="./assets/logo1.jpg"/>
-        <style>
-            h3{
-                color:brown
-            }
-            h6{
-                color: blue;
-            }
-        </style>
+        <!--Linking external css into html-->
+        <link rel="stylesheet" href="./style.css"/>
     </head>
     <body>
        Hello i'm body of HTML5
@@ -22,12 +18,9 @@
        <h5>Hello i'm body of HTML5</h5>
        <h6>Hello i'm body of HTML5</h6>
       <span></span>
-      <script> 
-        console.log("I'm coming from javascript ")
-        console.log("document")
-        console.log(document.getElementsByTagName("span"))
-        console.log(document.getElementsByTagName("h1")[0].innerHTML);
-        document.getElementsByTagName("span")[0].innerHTML="I'm coming from js";
-      </script>
+      <button class="primary-btn" id="primary-btn-id">Click Me</button>
+      <button class="primary-btn" id="secondary-btn-id" onclick="dontClickButtom()">Don't Click Me</button>
+      <!--Bridge between .html to .js-->
+      <script src="./App.js"></script>
     </body>
 </html>

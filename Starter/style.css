@@ -1,0 +1,35 @@
+/*Tag selecter*/
+h3{
+    color:brown
+}
+h6{
+    color: rgb(63, 63, 218);
+}
+/*Class selecter*/
+.primary-btn{
+    width: 10%;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+}
+/*Id selecter*/
+#primary-btn-id{
+    background-color: rgb(114, 114, 231);
+    color:white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#primary-btn-id:hover{
+    background-color: rgb(51, 51, 160);
+}
+#secondary-btn-id{
+    background-color: rgb(231, 114, 161);
+    color:white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#secondary-btn-id:hover{
+    background-color: rgb(219, 81, 136);
+}
